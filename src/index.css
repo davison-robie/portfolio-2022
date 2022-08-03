@@ -1,13 +1,22 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald"),
+    url(./fonts/Oswald/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto_Condensed";
+  src: local("Roboto_Condensed"),
+    url(./fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Source_Code_Pro";
+  src: local("Source_Code_Pro"),
+    url(./fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf)
+      format("truetype");
 }

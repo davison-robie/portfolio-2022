@@ -1,0 +1,34 @@
+.content-body {
+  padding-bottom: 4rem;
+}
+
+//VIDEO PLAYER STYLES
+.player-outside-wrapper {
+  max-width: 700px;
+}
+.player-wrapper {
+  position: relative;
+  background: linear-gradient(-45deg, $darkGreen, $black);
+  animation: gradient 7s ease infinite;
+  background-size: 400% 400%;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  margin-bottom: 1.6rem;
+}
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+//CODE BLOCK STYLES
+.my-code-block {
+  font-family: "Source_Code_Pro";
+  padding-bottom: 1.6rem;
+}
+
+//TALL IMAGE STYLE
+
+.tall-image-wrap {
+  max-width: 700px;
+  padding-bottom: 1.6rem;
+}

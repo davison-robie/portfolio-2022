@@ -1,0 +1,59 @@
+@import "./variables";
+
+h1,
+h2 {
+  font-family: "Oswald";
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $black;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 6.4rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-family: "Source_Code_Pro";
+  font-weight: bold;
+  font-size: 2rem;
+  color: $black;
+  line-height: 4rem;
+}
+
+.after-title {
+  color: $darkGray;
+  font-weight: normal;
+  font-style: italic;
+  padding-bottom: 1.6rem;
+}
+
+h4 {
+  font-family: "Source_Code_Pro";
+  font-size: 2rem;
+  color: $darkGray;
+  padding-bottom: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Source_Code_Pro";
+  color: $darkGray;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+}
+
+a {
+  color: $darkGreen;
+}
+
+.link {
+  color: $darkGreen;
+  text-transform: uppercase;
+  font-family: "Roboto_Condensed";
+  font-weight: bold;
+}
