@@ -1,10 +1,12 @@
 .content-body {
   padding-bottom: 4rem;
+  text-align: center;
 }
 
 //VIDEO PLAYER STYLES
 .player-outside-wrapper {
   max-width: 700px;
+  margin: auto;
 }
 .player-wrapper {
   position: relative;
@@ -24,6 +26,7 @@
 .my-code-block {
   font-family: "Source_Code_Pro";
   padding-bottom: 1.6rem;
+  text-align: left;
 }
 
 //TALL IMAGE STYLE

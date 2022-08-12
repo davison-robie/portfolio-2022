@@ -5,7 +5,9 @@ function Header() {
   return (
     <div className="header">
       <NavLink to={"/"}>
-        <h1>Davison Robie</h1>
+        <h1>
+          Davison <strong>Robie</strong>
+        </h1>
       </NavLink>
       <hr />
     </div>

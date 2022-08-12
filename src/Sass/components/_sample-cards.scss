@@ -7,14 +7,17 @@
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-auto-rows: 30rem;
 
-  row-gap: 1rem;
-  column-gap: 2rem;
+  grid-row-gap: 3rem;
+  column-gap: 3rem;
+  grid-column-gap: 3rem;
+  -webkit-column-gap: 3rem;
 }
 
 .card {
-  padding: 0.5rem;
+  padding: 3rem;
   text-decoration: none;
-  box-shadow: 5px 5px 10px 2px $lightGray;
+  box-shadow: 0 1px 1px $lightGray, 0 2px 2px $lightGray, 0 4px 4px $lightGray,
+    0 8px 8px $lightGray, 0 16px 16px $lightGray;
 
   h1,
   h2,
